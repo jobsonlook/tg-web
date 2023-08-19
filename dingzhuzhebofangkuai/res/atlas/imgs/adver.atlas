@@ -1,0 +1,229 @@
+{
+    "frames": {
+        "advertisementUi_btn_1.png": {
+            "frame": {
+                "h": 71,
+                "idx": 0,
+                "w": 195,
+                "x": 0,
+                "y": 438
+            },
+            "sourceSize": {
+                "h": 71,
+                "w": 195
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "advertisementUi_btn_2.png": {
+            "frame": {
+                "h": 99,
+                "idx": 0,
+                "w": 279,
+                "x": 201,
+                "y": 338
+            },
+            "sourceSize": {
+                "h": 99,
+                "w": 279
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "advertisementUi_btn_4.png": {
+            "frame": {
+                "h": 117,
+                "idx": 0,
+                "w": 311,
+                "x": 0,
+                "y": 162
+            },
+            "sourceSize": {
+                "h": 117,
+                "w": 311
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "advertisementUi_btn_5.png": {
+            "frame": {
+                "h": 161,
+                "idx": 0,
+                "w": 354,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 161,
+                "w": 354
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "advertisementUi_di_1.png": {
+            "frame": {
+                "h": 35,
+                "idx": 0,
+                "w": 37,
+                "x": 264,
+                "y": 280
+            },
+            "sourceSize": {
+                "h": 35,
+                "w": 37
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "advertisementUi_di_2.png": {
+            "frame": {
+                "h": 62,
+                "idx": 0,
+                "w": 62,
+                "x": 271,
+                "y": 438
+            },
+            "sourceSize": {
+                "h": 62,
+                "w": 62
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "advertisementUi_di_3.png": {
+            "frame": {
+                "h": 175,
+                "idx": 0,
+                "w": 197,
+                "x": 312,
+                "y": 162
+            },
+            "sourceSize": {
+                "h": 175,
+                "w": 197
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "advertisementUi_di_4.png": {
+            "frame": {
+                "h": 157,
+                "idx": 0,
+                "w": 200,
+                "x": 0,
+                "y": 280
+            },
+            "sourceSize": {
+                "h": 157,
+                "w": 200
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "float_bg.png": {
+            "frame": {
+                "h": 146,
+                "idx": 0,
+                "w": 124,
+                "x": 355,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 146,
+                "w": 124
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "interB_icon_1.png": {
+            "frame": {
+                "h": 31,
+                "idx": 0,
+                "w": 31,
+                "x": 480,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 31,
+                "w": 31
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "interB_icon_2.png": {
+            "frame": {
+                "h": 32,
+                "idx": 0,
+                "w": 62,
+                "x": 201,
+                "y": 280
+            },
+            "sourceSize": {
+                "h": 32,
+                "w": 62
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "interB_icon_3.png": {
+            "frame": {
+                "h": 32,
+                "idx": 0,
+                "w": 62,
+                "x": 334,
+                "y": 438
+            },
+            "sourceSize": {
+                "h": 32,
+                "w": 62
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "interB_moregame.png": {
+            "frame": {
+                "h": 70,
+                "idx": 0,
+                "w": 74,
+                "x": 196,
+                "y": 438
+            },
+            "sourceSize": {
+                "h": 70,
+                "w": 74
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    },
+    "meta": {
+        "image": "adver.png",
+        "prefix": "imgs/adver/"
+    }
+}

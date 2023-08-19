@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>大白回家-7724小游戏</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1, IE=9">
+<meta name="format-detection" content="telephone=no">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="robots" content="noindex,nofollow"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+<meta name="apple-mobile-web-app-title" content="Phaser App">
+<meta id="viewport" name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.01"/>
+<meta name="full-screen" content="yes"/>
+<meta name="screen-orientation" content="portrait"/>
+<meta name="x5-fullscreen" content="true"/>
+<meta name="360-fullscreen" content="true"/>
+<link href="res/css/styles.css" media="screen" rel="stylesheet" type="text/css">
+<script>
+        // Package-ID
+        window.famobi_gameID = "dragons-trail";
+        window.famobi_gameJS = [
+            //"src/FamobiAPIDebug.js",
+            "src/game.min.js",
+            "src/gameConfig.js",
+            function(){
+                window.famobi_start();
+            }
+        ];
+
+        (function (document, url, fgJS, firstJS) {
+                fgJS = document.createElement('script');
+                firstJS = document.getElementsByTagName('script')[0];
+                fgJS.src = url + encodeURIComponent(document.location.href);
+                firstJS.parentNode.insertBefore(fgJS, firstJS);
+        })(document, './gameapi/v1.js?e=');
+    </script>
+</head>
+<body style="padding:0; margin: 0; background: #1c1c1c;">
+<div id="gameContainer"></div>
+<script type="text/javascript" src="src/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="src/underscore.min.js"></script>
+<script>
+    var lct = window.document.location;
+    var path = lct.pathname;
+    var pathName = path.substring(0, path.lastIndexOf("/"));
+    var basePath = lct.protocol + "//" + lct.host + pathName + "/";
+    var iconUrl = basePath + "res/icon.jpg";
+
+    h5WxData = {
+        imgUrl: encodeURI(iconUrl),
+        link: window.location.href,
+        desc: "呆萌无害的大白去寻找微型机器人而迷路了，快带它回来吧！",
+        title: "大白回家",
+        score: 0,
+        increase: true  //得分越高越厉害则为true，否则为false
+    };
+</script>
+
+<script>
+    function setLoadingVisible(visible, isEnd, loadCall) {
+        if (window.parent != window) {
+            window.parent.setLoadingVisible(visible, isEnd, loadCall);       
+        }
+    }
+    function setBannerVisible(index, visible) {
+        if (window.parent != window) {
+            window.parent.setBannerVisible(index, visible);        
+        }
+    };
+</script>
+</body>
+</html>

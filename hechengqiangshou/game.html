@@ -1,0 +1,106 @@
+<html>
+
+<head>
+    <title>合成枪手</title>
+    <meta charset='utf-8' />
+    <meta name='renderer' content='webkit' />
+    <meta name='viewport' content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'/>
+    <meta name='apple-mobile-web-app-capable' content='yes' />
+    <meta name='full-screen' content='true' />
+    <meta name='x5-fullscreen' content='true' />
+    <meta name='360-fullscreen' content='true' />
+    <meta name='laya' screenorientation='landscape' />
+    <meta http-equiv='expires' content='0' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
+    <meta http-equiv='expires' content='0' />
+    <meta http-equiv='Cache-Control' content='no-siteapp' />
+	<link href="demo.css" rel="stylesheet" media="all" />
+	<script type="text/javascript" src="jquery.min.js"></script>
+</head>
+<body>
+	<div class="zbox-popup-backdrop zbox-active" style="display: none;"></div>
+	<div class="zbox-popup zbox-popup-in" style="display: none;">
+		<div class="zbox-popup-inner">
+			<div class="zbox-popup-title"></div>
+			<div class="zbox-popup-text">Watch ads to get skin?</div>
+		</div>
+		<div class="zbox-popup-buttons">
+			<span class="zbox-popup-button qd" index="0">Yes</span>
+			<span class="zbox-popup-button R qx" index="1">No</span>
+		</div>
+	</div>
+
+	<script>
+	var is_4399 = true;
+	var ishasAds = true;
+	var GameGlobal = {};
+	function canPlayAd11()
+	{
+		return true;
+	}
+	// self.setInterval("getHasAds()",1000)
+	// function getHasAds()
+	// {
+	// 	canPlayAd11();
+	// }
+	var backfun = null;
+	
+	function showBox(backfun1,skinName)
+	{
+		var guns = {"戴斯": 'Daisy',"魔女": 'Witch',"谭雅": 'Tanya',"子弹头": 'Bullet',"大哥大": 'Boss',"李小箱": 'Box Man',"小浣熊": 'Raccoom',"精灵": 'Fairy',"黑妹": 'Beauty Girl',"姜饼人": 'Sad man',"寡姐": 'Blacks widow',"黑猫侦探": 'Cat detective',"钢钢侠": 'Iron man',"犽羽獠": 'Suit man',"小海盗": 'Pirate',"火柴人": 'Match man',"爱莉": 'Eric',}
+
+		guns[skinName] && (skinName = guns[skinName]);
+
+		$('.zbox-popup-text').html('Watch ads to get skin?<br>"'+skinName+'"？')
+		backfun = backfun1;
+		$(".zbox-popup-backdrop").show()
+		$(".zbox-popup").show()
+	}
+	function showAds(b,c)
+	{
+		setLoadingVisible(true, true, function () {
+			b && b(true);
+		})
+	}
+	</script>
+    <script type="text/javascript">
+        function loadLib(url) {
+            var script = document.createElement("script");
+            script.async = false;
+            script.src = url;
+            document.body.appendChild(script);
+        }
+		$(document).on('click', '.qd', function(e){
+			backfun();
+			$(".zbox-popup-backdrop").hide()
+			$(".zbox-popup").hide()
+		});
+		
+		$(document).on('click', '.qx', function(e){
+			console.log("取消啊")
+			//$("#id").show()
+			
+			$(".zbox-popup-backdrop").hide()
+			$(".zbox-popup").hide()
+		});
+		
+
+    </script>
+   <!-- -->
+   <script type="text/javascript" src="js/index.js"></script>
+   
+<script>
+    function setLoadingVisible(visible, isEnd, loadCall) {
+        if (window.parent != window) {
+            window.parent.setLoadingVisible(visible, isEnd, loadCall);       
+        }
+    }
+    function setBannerVisible(index, visible) {
+        if (window.parent != window) {
+            window.parent.setBannerVisible(index, visible);        
+        }
+    };
+</script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+
+eff_tyt_jiesuan.png
+size: 1702,608
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+caidai/caidai_1
+  rotate: true
+  xy: 2, 305
+  size: 301, 338
+  orig: 301, 338
+  offset: 0, 0
+  index: -1
+caidai/caidai_10
+  rotate: true
+  xy: 1362, 2
+  size: 301, 338
+  orig: 301, 338
+  offset: 0, 0
+  index: -1
+caidai/caidai_2
+  rotate: true
+  xy: 342, 305
+  size: 301, 338
+  orig: 301, 338
+  offset: 0, 0
+  index: -1
+caidai/caidai_3
+  rotate: true
+  xy: 682, 305
+  size: 301, 338
+  orig: 301, 338
+  offset: 0, 0
+  index: -1
+caidai/caidai_4
+  rotate: true
+  xy: 1022, 305
+  size: 301, 338
+  orig: 301, 338
+  offset: 0, 0
+  index: -1
+caidai/caidai_5
+  rotate: true
+  xy: 1362, 305
+  size: 301, 338
+  orig: 301, 338
+  offset: 0, 0
+  index: -1
+caidai/caidai_6
+  rotate: true
+  xy: 2, 2
+  size: 301, 338
+  orig: 301, 338
+  offset: 0, 0
+  index: -1
+caidai/caidai_7
+  rotate: true
+  xy: 342, 2
+  size: 301, 338
+  orig: 301, 338
+  offset: 0, 0
+  index: -1
+caidai/caidai_8
+  rotate: true
+  xy: 682, 2
+  size: 301, 338
+  orig: 301, 338
+  offset: 0, 0
+  index: -1
+caidai/caidai_9
+  rotate: true
+  xy: 1022, 2
+  size: 301, 338
+  orig: 301, 338
+  offset: 0, 0
+  index: -1

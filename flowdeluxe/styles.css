@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#game {
+  /*position: absolute;*/
+  /*top: 50%;*/
+  /*left: 50%;*/
+  /*transform: translate(-50%, -50%);*/
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'levelFont';
+  src: url('assets/flow/font/mickey.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'titleFont';
+  src: url('assets/flow/font/LoveYaLikeASister.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: titleFont;
+}
+
+body {
+  font-family: levelFont;
+}
+
+#game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}

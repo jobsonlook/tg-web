@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Run Sausage Run</title>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi"
+        name="viewport">
+    <meta name="full-screen" content="yes" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <meta name="allowfullscree" content="true" />
+
+    <style type="text/css">
+        /* 隐藏9Day图片 */
+        #logoImg { display: none; }
+    </style>
+</head>
+
+<body>
+    <script>
+        // 需求：当进度条加载完成时，自动点击“GO”按钮，进入游戏界面
+        // 注意：go按钮刚出现时，还没被绑定click事件，所以触发一次click事件可能无效，需要多次触发点击
+        var startClick = false;
+        var autoClickStartTimer = setInterval(function() {
+            var btnGo = document.getElementById('preloaded');
+            if (btnGo) {
+                startClick = true;
+                btnGo.click();
+            }
+            // 有效点击后，会进入游戏界面，此时go按钮元素会消失，此时关闭timer
+            if (startClick && !btnGo) {
+                clearInterval(autoClickStartTimer);
+            }
+        }, 200);
+    </script>
+    <script>
+        function setLoadingVisible(visible, isEnd, loadCall) {
+            window.parent.setLoadingVisible(visible, isEnd, loadCall);
+        }
+
+        function setBannerVisible(index, visible) {
+            window.parent.setBannerVisible(index, visible);
+        };
+    </script>
+
+
+    <link href="./game/forgame/css/game.css" rel="stylesheet">
+    <script src="./game/forgame/js/jquery-2.1.1.min.js"></script>
+    <script src="./game/forgame/js/com4japi.min.v1.9.4.js"></script>
+    <script src="c2runtime.js"></script>
+</body>
+
+</html>

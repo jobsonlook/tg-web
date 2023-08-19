@@ -1,0 +1,298 @@
+[{
+    "id": "0",
+    "Des": "Stage #"
+}, {
+    "id": "1",
+    "Des": "Failed"
+}, {
+    "id": "2",
+    "Des": "Success"
+}, {
+    "id": "3",
+    "Des": "Watch the full video to get the Gold"
+}, {
+    "id": "4",
+    "Des": "Watch the full video to get the Triple Gold"
+}, {
+    "id": "5",
+    "Des": "Sharing Failed.Share it to the group to get more response!"
+}, {
+    "id": "6",
+    "Des": "Insufficient Gold"
+}, {
+    "id": "7",
+    "Des": "Offline Bonus"
+}, {
+    "id": "8",
+    "Des": "During offline, you have accumulated"
+}, {
+    "id": "9",
+    "Des": "Triple"
+}, {
+    "id": "10",
+    "Des": "Give Up"
+}, {
+    "id": "11",
+    "Des": "Level Up"
+}, {
+    "id": "12",
+    "Des": "You gain # Gold"
+}, {
+    "id": "13",
+    "Des": "Watcing too many videos today!"
+}, {
+    "id": "14",
+    "Des": "Unlock new turret!"
+}, {
+    "id": "15",
+    "Des": "Unlock new technology!"
+}, {
+    "id": "16",
+    "Des": "Watch the full video to get it"
+}, {
+    "id": "techTip0",
+    "Des": "Congrats, Turret upgrade to Lv.#"
+}, {
+    "id": "techTip1",
+    "Des": "Congrats, Ammunition Power upgrade to #%"
+}, {
+    "id": "techTip2",
+    "Des": "Congrats, Offline Bonus upgrade to #%"
+}, {
+    "id": "techName0",
+    "Des": "Turret Upgrading"
+}, {
+    "id": "techName1",
+    "Des": "Ammunition Upgrading"
+}, {
+    "id": "techName2",
+    "Des": "Offline Bonus Upgrading"
+}, {
+    "id": "techEffect0",
+    "Des": "Start Lv#"
+}, {
+    "id": "techEffect1",
+    "Des": "Ammunition Power upgrade #%"
+}, {
+    "id": "techEffect2",
+    "Des": "Offline Bonus upgrade #%"
+}, {
+    "id": "techDes0",
+    "Des": "Turret Upgrading will increase the start level of Turret"
+}, {
+    "id": "techDes1",
+    "Des": "Ammunition Upgrading will inrease its power"
+}, {
+    "id": "techDes2",
+    "Des": "Offline Bonus Upgrading will increase what you can claim"
+}, {
+    "id": "guide0",
+    "Des": "Drag to merge a higer level Turret"
+}, {
+    "id": "guide1",
+    "Des": "Drag the Turret to shoot"
+}, {
+    "id": "guide2",
+    "Des": "Well Done!"
+}, {
+    "id": "guide3",
+    "Des": "We need more Turrets"
+}, {
+    "id": "guide4",
+    "Des": "Good Job!"
+}, {
+    "id": "guide5",
+    "Des": "Next"
+}, {
+    "id": "guide6",
+    "Des": "Now"
+}, {
+    "id": "TimeType0",
+    "Des": "Auto Merge"
+}, {
+    "id": "TimeType1",
+    "Des": "Using Auto Merge to release your hand"
+}, {
+    "id": "TimeType2",
+    "Des": "Gold*5"
+}, {
+    "id": "TimeType3",
+    "Des": "Gold*5（Shooting Only）"
+}, {
+    "id": "TimeType4",
+    "Des": "Speed*2"
+}, {
+    "id": "TimeType5",
+    "Des": "The Speed of Turret *2"
+}, {
+    "id": "TimeType6",
+    "Des": "Half Difficulty"
+}, {
+    "id": "TimeType7",
+    "Des": "The Health of Cubes will reduce to half"
+}, {
+    "id": "TimeType8",
+    "Des": "Auto Merge effect ended"
+}, {
+    "id": "TimeType9",
+    "Des": "Gold*5 effect ended"
+}, {
+    "id": "TimeType10",
+    "Des": "Speed*2 effect ended"
+}, {
+    "id": "TimeType11",
+    "Des": "Half Difficulty effect ended"
+}, {
+    "id": "suggest1",
+    "Des": "Please choose at least one choice."
+}, {
+    "id": "suggest2",
+    "Des": "Thanks a lot for your feedback"
+}, {
+    "id": "getGold",
+    "Des": "You reach the limitation of today."
+}, {
+    "id": "compose1",
+    "Des": "Unlock after Stage #"
+}, {
+    "id": "compose2",
+    "Des": "Locked"
+}, {
+    "id": "compose3",
+    "Des": "No slot available"
+}, {
+    "id": "compose4",
+    "Des": "You have accumulated too many minutes"
+}, {
+    "id": "compose5",
+    "Des": "Unlock after Stage 10"
+}, {
+    "id": "compose6",
+    "Des": "You have accumulated too many minutes"
+}, {
+    "id": "compose7",
+    "Des": "Coming Soon!"
+}, {
+    "id": "compose8",
+    "Des": "Unlock Tomorrow!"
+}, {
+    "id": "TipAttackAdd",
+    "Des": "Attack Increasing"
+}, {
+    "id": "TipAttackMinus",
+    "Des": "Attack Decreasing"
+}, {
+    "id": "GetSuccess",
+    "Des": "Success"
+}, {
+    "id": "Gift0",
+    "Des": "Congrats, you get new Kernel"
+}, {
+    "id": "Gift1",
+    "Des": "Free Times：#"
+}, {
+    "id": "Gift2",
+    "Des": "No more slots to equip"
+}, {
+    "id": "Gift3",
+    "Des": "You have equipped a higher one"
+}, {
+    "id": "Gift4",
+    "Des": "Resolve Success"
+}, {
+    "id": "Gift5",
+    "Des": "Replace Success"
+}, {
+    "id": "Gift6",
+    "Des": "Free Times are all used"
+}, {
+    "id": "Gift7",
+    "Des": "Equip Success"
+}, {
+    "id": "Gift8",
+    "Des": "Remove Success"
+}, {
+    "id": "Gift9",
+    "Des": "Can't get the information before the countdown"
+}, {
+    "id": "Gift10",
+    "Des": "Get Kernel*1"
+}, {
+    "id": "Gift11",
+    "Des": "No Attribution Addition"
+}, {
+    "id": "GiftColor1",
+    "Des": "Common"
+}, {
+    "id": "GiftColor2",
+    "Des": "Excellent"
+}, {
+    "id": "GiftColor3",
+    "Des": "Rare"
+}, {
+    "id": "GiftColor4",
+    "Des": "Epic"
+}, {
+    "id": "GiftColor5",
+    "Des": "Legend"
+}, {
+    "id": "GiftDes1",
+    "Des": "Ammunition Critical increase #%"
+}, {
+    "id": "GiftDes2",
+    "Des": "Ammunition Bounce Times increase #%"
+}, {
+    "id": "GiftDes3",
+    "Des": "Ammunition Speed increase #%"
+}, {
+    "id": "GiftDes4",
+    "Des": "Turret Cost reduce #%"
+}, {
+    "id": "GiftDes5",
+    "Des": "Gold Drop increase #%"
+}, {
+    "id": "GiftDes6",
+    "Des": "Boss Stage-the speed of cubes reduce #%"
+}, {
+    "id": "GiftDes7",
+    "Des": "Non-Boss Stage-the speed of cubes increase #%"
+}, {
+    "id": "GiftDes8",
+    "Des": "Auto Merge effect add extra # seconds"
+}, {
+    "id": "GiftColorDes1",
+    "Des": "Lv#：Ammunition Critical increase#%-#%"
+}, {
+    "id": "GiftColorDes2",
+    "Des": "Lv#：Ammunition Bounce Times increase #-#"
+}, {
+    "id": "GiftColorDes3",
+    "Des": "Lv#：Ammunition Speed increase#%-#%"
+}, {
+    "id": "GiftColorDes4",
+    "Des": "Lv#：Turret Cost reduce #%-#%"
+}, {
+    "id": "GiftColorDes5",
+    "Des": "Lv#：Gold Drop increase #%-#%"
+}, {
+    "id": "GiftColorDes6",
+    "Des": "Lv#：Boss Stage-the speed of cubes reduce #%-#%"
+}, {
+    "id": "GiftColorDes7",
+    "Des": "Lv#：Non-Boss Stage-the speed of cubes increase #%-#%"
+}, {
+    "id": "GiftColorDes8",
+    "Des": "Lv#：Auto Merge effect add extra #-#"
+}, {
+    "id": "DayGift",
+    "Des": "Today's Gift is claimed"
+}, {
+    "id": "Upgrade1",
+    "Des": "Watch the full video to increase the levels"
+}, {
+    "id": "Upgrade2",
+    "Des": "Turrt Upgrading Success"
+}, {
+    "id": "loadFail",
+    "Des": "Watcing too many videos today!"
+}]

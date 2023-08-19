@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0" />
+<title>Candy Crash</title>
+<script type="text/javascript" src="js/game.min.js"></script>
+<script type="text/javascript" src='./sg/softgames-1.1.js'></script>
+<script type="text/javascript" src='./sg/sg.hooks.js'></script>
+<link rel="shortcut icon" href="icon.png">
+<link rel="icon" href="icon.png">
+<script type="text/javascript" src="zepto.min.js"></script>
+<style>
+		html,body {margin:0; padding:0;}
+	</style>
+    
+</head>
+<body onLoad="tke();">
+<div id="viewporter">
+<canvas id="canvas" width="700" height="900"></canvas>
+<div id="loader"></div>
+</div>
+<input id="bt-game-id" type="hidden" value="10-candyrain">
+	
+
+<script>
+    function setLoadingVisible(visible, isEnd, loadCall) {
+        if (window.parent != window) {
+            window.parent.setLoadingVisible(visible, isEnd, loadCall);       
+        }
+    }
+    function setBannerVisible(index, visible) {
+        if (window.parent != window) {
+            window.parent.setBannerVisible(index, visible);        
+        }
+    };
+</script>
+</body>
+</html>

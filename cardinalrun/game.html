@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cardinal Run</title>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content="#0b233b">
+        <meta name="description" content="Move between the cardinal tracks to avoid getting killed and reach the end.">
+        <link rel="manifest" href="manifest.json">
+        <meta name="apple-mobile-web-app-title" content="Cardinal Run">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="stylesheet" type="text/css" href="f08a485810b185f392d1b8228cec6a25/css/style.css">
+    
+    </head>
+    <body>
+        <div id="container">
+            <div id="shake_container">
+                <div id="loader-container">
+                    <div id="loader-progress">
+                        <div id="loader-bar">
+                            <img src="f08a485810b185f392d1b8228cec6a25/assets/loader.gif" alt="Loading...">
+                        </div>
+                        <div id="loader-message" class="loader-text">
+                            <span class="locale">Loading</span>
+                            <span class="small-text locale">
+                                .// code &nbsp;<span id="loader-pct-code">0</span>
+                                %
+                            </span>
+                        </div>
+                        <div id="loader-message-graphics" class="loader-text">
+                            <span class="locale">Loading</span>
+                            &nbsp;(2/3)
+    <br>
+                            <span class="small-text locale">
+                                .// graphics &nbsp;<span id="loader-pct-graphics">0</span>
+                                %
+                            </span>
+                        </div>
+                        <div id="loader-message-sfx" class="loader-text">
+                            <span class="locale">Loading</span>
+                            &nbsp;(3/3)
+    <br>
+                            <span class="small-text locale">
+                                .// sounds &nbsp;<span id="loader-pct-sound">0</span>
+                                %
+                            </span>
+                        </div>
+                    </div>
+                    <div id="loader-complete">
+                        <div id="loader-tap-to-play">
+                            <img src="f08a485810b185f392d1b8228cec6a25/assets/tap_to_play.png" width="190" height="34" id="loader-tap-to-play-btn" class="pixel-art" alt="Tap to Play">
+                        </div>
+                        <div id="initializing-message">
+                            <span class="locale">Initializing</span>
+                            ...
+                        </div>
+                        <div id="fullscreen-option">
+                            <div>
+                                <span class="squaredThree" style="float: left;">
+                                    <input type="checkbox" id="fullscreen-opt"/>
+                                    <label for="fullscreen-opt"></label>
+                                </span>
+                                <span style="float: left;">
+                                    <label for="fullscreen-opt">
+                                        <span class="locale" style="padding-left: 40px; line-height: 20px; cursor: pointer;">Full screen</span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <canvas id="game_area"></canvas>
+            </div>
+        </div>
+        <div id="fullscreen-button">
+            <img src="f08a485810b185f392d1b8228cec6a25/assets/fullscreen.png" width="24" alt="Go Fullscreen (F11)">
+        </div>
+        <div id="rotate-device-instruction">
+            <img src="f08a485810b185f392d1b8228cec6a25/assets/rotate_device_info.png" alt="Rotate your device to Landscape mode for better experience.">
+        </div>
+        <script src="f08a485810b185f392d1b8228cec6a25/js/startup.js" type="text/javascript"></script>
+
+
+<script>
+    function setLoadingVisible(visible, isEnd, loadCall) {
+        if (window.parent != window) {
+            window.parent.setLoadingVisible(visible, isEnd, loadCall);       
+        }
+    }
+    function setBannerVisible(index, visible) {
+        if (window.parent != window) {
+            window.parent.setBannerVisible(index, visible);        
+        }
+    };
+</script>
+
+    </body>
+</html>

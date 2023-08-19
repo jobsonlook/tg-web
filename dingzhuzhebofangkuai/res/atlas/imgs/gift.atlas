@@ -1,0 +1,365 @@
+{
+    "frames": {
+        "heixin_xin_bg.png": {
+            "frame": {
+                "h": 232,
+                "idx": 0,
+                "w": 190,
+                "x": 341,
+                "y": 371
+            },
+            "sourceSize": {
+                "h": 232,
+                "w": 190
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "hexin_button.png": {
+            "frame": {
+                "h": 89,
+                "idx": 0,
+                "w": 199,
+                "x": 341,
+                "y": 604
+            },
+            "sourceSize": {
+                "h": 89,
+                "w": 199
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "hexingshuxing_bg.png": {
+            "frame": {
+                "h": 370,
+                "idx": 0,
+                "w": 477,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 370,
+                "w": 477
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "hexinshuxing.png": {
+            "frame": {
+                "h": 25,
+                "idx": 0,
+                "w": 84,
+                "x": 585,
+                "y": 226
+            },
+            "sourceSize": {
+                "h": 25,
+                "w": 84
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "hexinxinxi_xin.png": {
+            "frame": {
+                "h": 46,
+                "idx": 0,
+                "w": 46,
+                "x": 620,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 46,
+                "w": 46
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "kejiui_bg.png": {
+            "frame": {
+                "h": 340,
+                "idx": 0,
+                "w": 340,
+                "x": 0,
+                "y": 371
+            },
+            "sourceSize": {
+                "h": 340,
+                "w": 340
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "kejiui_bg_daojishi.png": {
+            "frame": {
+                "h": 21,
+                "idx": 0,
+                "w": 110,
+                "x": 564,
+                "y": 60
+            },
+            "sourceSize": {
+                "h": 21,
+                "w": 110
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "kejiui_hexin_1.png": {
+            "frame": {
+                "h": 63,
+                "idx": 0,
+                "w": 55,
+                "x": 542,
+                "y": 162
+            },
+            "sourceSize": {
+                "h": 63,
+                "w": 55
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "kejiui_hexin_2.png": {
+            "frame": {
+                "h": 59,
+                "idx": 0,
+                "w": 55,
+                "x": 564,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 59,
+                "w": 55
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "kejiui_hexin_3.png": {
+            "frame": {
+                "h": 59,
+                "idx": 0,
+                "w": 55,
+                "x": 478,
+                "y": 267
+            },
+            "sourceSize": {
+                "h": 59,
+                "w": 55
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "kejiui_hexin_4.png": {
+            "frame": {
+                "h": 59,
+                "idx": 0,
+                "w": 55,
+                "x": 532,
+                "y": 327
+            },
+            "sourceSize": {
+                "h": 59,
+                "w": 55
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "kejiui_hexin_5.png": {
+            "frame": {
+                "h": 59,
+                "idx": 0,
+                "w": 55,
+                "x": 534,
+                "y": 267
+            },
+            "sourceSize": {
+                "h": 59,
+                "w": 55
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "kejiui_hexin_6.png": {
+            "frame": {
+                "h": 59,
+                "idx": 0,
+                "w": 55,
+                "x": 532,
+                "y": 387
+            },
+            "sourceSize": {
+                "h": 59,
+                "w": 55
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "kejiui_hexin_7.png": {
+            "frame": {
+                "h": 59,
+                "idx": 0,
+                "w": 55,
+                "x": 532,
+                "y": 447
+            },
+            "sourceSize": {
+                "h": 59,
+                "w": 55
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "kejiui_hexin_8.png": {
+            "frame": {
+                "h": 59,
+                "idx": 0,
+                "w": 55,
+                "x": 532,
+                "y": 507
+            },
+            "sourceSize": {
+                "h": 59,
+                "w": 55
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "kejiui_hexin_9.png": {
+            "frame": {
+                "h": 63,
+                "idx": 0,
+                "w": 55,
+                "x": 543,
+                "y": 92
+            },
+            "sourceSize": {
+                "h": 63,
+                "w": 55
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "kejiui_hexin_bg.png": {
+            "frame": {
+                "h": 67,
+                "idx": 0,
+                "w": 63,
+                "x": 478,
+                "y": 162
+            },
+            "sourceSize": {
+                "h": 67,
+                "w": 63
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "kejiui_juxing_bg.png": {
+            "frame": {
+                "h": 36,
+                "idx": 0,
+                "w": 106,
+                "x": 478,
+                "y": 230
+            },
+            "sourceSize": {
+                "h": 36,
+                "w": 106
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "kejiui_lingxing_bg.png": {
+            "frame": {
+                "h": 69,
+                "idx": 0,
+                "w": 64,
+                "x": 478,
+                "y": 92
+            },
+            "sourceSize": {
+                "h": 69,
+                "w": 64
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "kejiui_suo.png": {
+            "frame": {
+                "h": 36,
+                "idx": 0,
+                "w": 30,
+                "x": 478,
+                "y": 327
+            },
+            "sourceSize": {
+                "h": 36,
+                "w": 30
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "libaoUI_icon.png": {
+            "frame": {
+                "h": 91,
+                "idx": 0,
+                "w": 85,
+                "x": 478,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 91,
+                "w": 85
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    },
+    "meta": {
+        "image": "gift.png",
+        "prefix": "imgs/gift/"
+    }
+}

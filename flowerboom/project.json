@@ -1,0 +1,1 @@
+{"languageJson": false, "gameId": "FlowerBoom", "version": 1.0, "language": "en", "domainAllowed": [], "preloader": "flax.Preloader", "frameRate": 30, "height": 960, "width": 640, "rotateImg": "res/rotate.png", "loading": "res/logo.png", "project_type": "javascript", "id": "gameCanvas", "debugMode": 1, "renderMode": 0, "showFPS": false, "landscape": false}

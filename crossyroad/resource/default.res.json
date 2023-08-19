@@ -1,0 +1,226 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,sheet_ui_json,level1_png,number1_fnt,number1_png,number2_fnt,number2_png,xinhaodeng_png,paishu_png,seet_chicken_json,sheet_dog_json,sheet_mouse_json,sheet_rabbit_json,bgmIngame_hi_mp3,bgmLose_Hi_mp3,buyPlayer_mp3,carHit_mp3,carPassing1_mp3,carPassing2_mp3,carPassing3_mp3,horn1_mp3,horn2_mp3,horn3_mp3,playerCoin_mp3,playerJump_mp3,playerSelect_mp3,playerWater_mp3,startGame_mp3,tapBTN2_mp3,trainBells_mp3,trainPassing_mp3,woodHit_mp3,watersplash_png,tip_png,seet_other_json,biaoti_2_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/ImageResource/car/sheet_ui.json",
+			"type": "sheet",
+			"name": "sheet_ui_json",
+			"subkeys": "bus_blue_01_png,bus_blue_02_png,bus_white_01_png,bus_white_02_png,bus_yellow_01_png,bus_yellow_02_png,car_blue_01_png,car_blue_02_png,car_pink_01_png,car_pink_02_png,che_01_png,che_02_png,che_1_png,che_2_png,che_3_png,che_4_png,che_5_png,che_6_png,chuzuche_01_png,chuzuche_02_png,f_1_png,f_2_png,f_3_png,feng_01_png,feng_02_png,hong_01_png,hong_02_png,huang_01_png,huang_02_png,huoche_2_png,huoche_3_png,huoche_png,kache_1_png,kache_2_png,kache_3_png,kache_4_png,lan_01_png,lan_02_png,paoche_1_png,paoche_2_png,paoche_3_png,paoche_4_png,paoche_5_png,paoche_6_png,z_1_png,z_2_png,z_3_png"
+		},
+		{
+			"url": "assets/ImageResource/GameMap/level1.png",
+			"type": "image",
+			"name": "level1_png"
+		},
+		{
+			"url": "assets/ImageResource/GameMap/level2.png",
+			"type": "image",
+			"name": "level2_png"
+		},
+		{
+			"url": "assets/ImageResource/GameMap/level3.png",
+			"type": "image",
+			"name": "level3_png"
+		},
+		{
+			"url": "assets/ImageResource/GameMap/level4.png",
+			"type": "image",
+			"name": "level4_png"
+		},
+		{
+			"url": "assets/ImageResource/GameMap/level5.png",
+			"type": "image",
+			"name": "level5_png"
+		},
+		{
+			"url": "assets/ImageResource/GameMap/level6.png",
+			"type": "image",
+			"name": "level6_png"
+		},
+		{
+			"url": "assets/ImageResource/GameMap/level7.png",
+			"type": "image",
+			"name": "level7_png"
+		},
+		{
+			"url": "assets/ImageResource/number1.fnt",
+			"type": "font",
+			"name": "number1_fnt"
+		},
+		{
+			"url": "assets/ImageResource/number1.png",
+			"type": "image",
+			"name": "number1_png"
+		},
+		{
+			"url": "assets/ImageResource/number2.fnt",
+			"type": "font",
+			"name": "number2_fnt"
+		},
+		{
+			"url": "assets/ImageResource/number2.png",
+			"type": "image",
+			"name": "number2_png"
+		},
+		{
+			"url": "assets/ImageResource/other/xinhaodeng.png",
+			"type": "image",
+			"name": "xinhaodeng_png"
+		},
+		{
+			"url": "assets/ImageResource/paishu.png",
+			"type": "image",
+			"name": "paishu_png"
+		},
+		{
+			"url": "assets/ImageResource/player/chicken/seet_chicken.json",
+			"type": "sheet",
+			"name": "seet_chicken_json",
+			"subkeys": "xiaoji_qian0010_png,xiaoji_qian0011_png,xiaoji_qian0012_png,xiaoji_qian0013_png,xiaoji_qian0014_png,xiaoji_qian0015_png,xiaoji_qian0016_png,xiaoji_qian0017_png,xiaoji_qian0018_png,xiaoji_qian001_png,xiaoji_qian002_png,xiaoji_qian003_png,xiaoji_qian004_png,xiaoji_qian005_png,xiaoji_qian006_png,xiaoji_qian007_png,xiaoji_qian008_png,xiaoji_qian009_png,xiaoji_qian_10_png,xiaoji_qian_11_png,xiaoji_qian_12_png,xiaoji_qian_13_png,xiaoji_qian_14_png,xiaoji_qian_15_png,xiaoji_qian_16_png,xiaoji_qian_17_png,xiaoji_qian_18_png,xiaoji_qian_1_png,xiaoji_qian_2_png,xiaoji_qian_3_png,xiaoji_qian_4_png,xiaoji_qian_5_png,xiaoji_qian_6_png,xiaoji_qian_7_png,xiaoji_qian_8_png,xiaoji_qian_9_png,xiaoji_si_png,xiaoji_yd_10_png,xiaoji_yd_11_png,xiaoji_yd_12_png,xiaoji_yd_13_png,xiaoji_yd_14_png,xiaoji_yd_15_png,xiaoji_yd_16_png,xiaoji_yd_17_png,xiaoji_yd_18_png,xiaoji_yd_19_png,xiaoji_yd_1_png,xiaoji_yd_2_png,xiaoji_yd_3_png,xiaoji_yd_4_png,xiaoji_yd_5_png,xiaoji_yd_6_png,xiaoji_yd_7_png,xiaoji_yd_8_png,xiaoji_yd_9_png,xiaoji_you_10_png,xiaoji_you_11_png,xiaoji_you_12_png,xiaoji_you_13_png,xiaoji_you_14_png,xiaoji_you_15_png,xiaoji_you_16_png,xiaoji_you_17_png,xiaoji_you_18_png,xiaoji_you_1_png,xiaoji_you_2_png,xiaoji_you_3_png,xiaoji_you_4_png,xiaoji_you_5_png,xiaoji_you_6_png,xiaoji_you_7_png,xiaoji_you_8_png,xiaoji_you_9_png,xiaoji_zuo_10_png,xiaoji_zuo_11_png,xiaoji_zuo_12_png,xiaoji_zuo_13_png,xiaoji_zuo_14_png,xiaoji_zuo_15_png,xiaoji_zuo_16_png,xiaoji_zuo_17_png,xiaoji_zuo_18_png,xiaoji_zuo_1_png,xiaoji_zuo_2_png,xiaoji_zuo_3_png,xiaoji_zuo_4_png,xiaoji_zuo_5_png,xiaoji_zuo_6_png,xiaoji_zuo_7_png,xiaoji_zuo_8_png,xiaoji_zuo_9_png"
+		},
+		{
+			"url": "assets/ImageResource/player/dog/sheet_dog.json",
+			"type": "sheet",
+			"name": "sheet_dog_json",
+			"subkeys": "shang_10_png,shang_11_png,shang_12_png,shang_13_png,shang_14_png,shang_15_png,shang_16_png,shang_17_png,shang_18_png,shang_1_png,shang_2_png,shang_3_png,shang_4_png,shang_5_png,shang_6_png,shang_7_png,shang_8_png,shang_9_png,si_2_png,xia_10_png,xia_11_png,xia_12_png,xia_13_png,xia_14_png,xia_15_png,xia_16_png,xia_17_png,xia_18_png,xia_1_png,xia_2_png,xia_3_png,xia_4_png,xia_5_png,xia_6_png,xia_7_png,xia_8_png,xia_9_png,yd_10_png,yd_11_png,yd_12_png,yd_13_png,yd_14_png,yd_15_png,yd_16_png,yd_17_png,yd_18_png,yd_1_png,yd_2_png,yd_3_png,yd_4_png,yd_5_png,yd_6_png,yd_7_png,yd_8_png,yd_9_png,you_10_png,you_11_png,you_12_png,you_13_png,you_14_png,you_15_png,you_16_png,you_17_png,you_18_png,you_1_png,you_2_png,you_3_png,you_4_png,you_5_png,you_6_png,you_7_png,you_8_png,you_9_png,zuo_10_png,zuo_11_png,zuo_12_png,zuo_13_png,zuo_14_png,zuo_15_png,zuo_16_png,zuo_17_png,zuo_18_png,zuo_1_png,zuo_2_png,zuo_3_png,zuo_4_png,zuo_5_png,zuo_6_png,zuo_7_png,zuo_8_png,zuo_9_png"
+		},
+		{
+			"url": "assets/ImageResource/player/mouse/sheet_mouse.json",
+			"type": "sheet",
+			"name": "sheet_mouse_json",
+			"subkeys": "laoshu_10_png,laoshu_11_png,laoshu_12_png,laoshu_13_png,laoshu_14_png,laoshu_15_png,laoshu_16_png,laoshu_17_png,laoshu_18_png,laoshu_1_png,laoshu_2_png,laoshu_3_png,laoshu_4_png,laoshu_5_png,laoshu_6_png,laoshu_7_png,laoshu_8_png,laoshu_9_png,laoshu_hou_10_png,laoshu_hou_11_png,laoshu_hou_12_png,laoshu_hou_13_png,laoshu_hou_14_png,laoshu_hou_15_png,laoshu_hou_16_png,laoshu_hou_17_png,laoshu_hou_18_png,laoshu_hou_1_png,laoshu_hou_2_png,laoshu_hou_3_png,laoshu_hou_4_png,laoshu_hou_5_png,laoshu_hou_6_png,laoshu_hou_7_png,laoshu_hou_8_png,laoshu_hou_9_png,laoshu_qian_10_png,laoshu_qian_11_png,laoshu_qian_12_png,laoshu_qian_13_png,laoshu_qian_14_png,laoshu_qian_15_png,laoshu_qian_16_png,laoshu_qian_17_png,laoshu_qian_18_png,laoshu_qian_1_png,laoshu_qian_2_png,laoshu_qian_3_png,laoshu_qian_4_png,laoshu_qian_5_png,laoshu_qian_6_png,laoshu_qian_7_png,laoshu_qian_8_png,laoshu_qian_9_png,laoshu_si_2_png,laoshu_yd_10_png,laoshu_yd_11_png,laoshu_yd_12_png,laoshu_yd_13_png,laoshu_yd_14_png,laoshu_yd_15_png,laoshu_yd_16_png,laoshu_yd_17_png,laoshu_yd_18_png,laoshu_yd_19_png,laoshu_yd_1_png,laoshu_yd_2_png,laoshu_yd_3_png,laoshu_yd_4_png,laoshu_yd_5_png,laoshu_yd_6_png,laoshu_yd_7_png,laoshu_yd_8_png,laoshu_yd_9_png,laoshu_zuo_10_png,laoshu_zuo_11_png,laoshu_zuo_12_png,laoshu_zuo_13_png,laoshu_zuo_14_png,laoshu_zuo_15_png,laoshu_zuo_16_png,laoshu_zuo_17_png,laoshu_zuo_18_png,laoshu_zuo_1_png,laoshu_zuo_2_png,laoshu_zuo_3_png,laoshu_zuo_4_png,laoshu_zuo_5_png,laoshu_zuo_6_png,laoshu_zuo_7_png,laoshu_zuo_8_png,laoshu_zuo_9_png"
+		},
+		{
+			"url": "assets/ImageResource/player/rabbit/sheet_rabbit.json",
+			"type": "sheet",
+			"name": "sheet_rabbit_json",
+			"subkeys": "hou0010_png,hou0011_png,hou0012_png,hou0013_png,hou0014_png,hou0015_png,hou0016_png,hou0017_png,hou0018_png,hou001_png,hou002_png,hou003_png,hou004_png,hou005_png,hou006_png,hou007_png,hou008_png,hou009_png,rudong000_png,rudong0010_png,rudong0011_png,rudong0012_png,rudong0013_png,rudong0014_png,rudong0015_png,rudong0016_png,rudong0017_png,rudong0018_png,rudong001_png,rudong002_png,rudong003_png,rudong004_png,rudong005_png,rudong006_png,rudong007_png,rudong008_png,rudong009_png,tuzi_si_png,xia0010_png,xia0011_png,xia0012_png,xia0013_png,xia0014_png,xia0015_png,xia0016_png,xia0017_png,xia0018_png,xia001_png,xia002_png,xia003_png,xia004_png,xia005_png,xia006_png,xia007_png,xia008_png,xia009_png,you0010_png,you0011_png,you0012_png,you0013_png,you0014_png,you0015_png,you0016_png,you0017_png,you0018_png,you001_png,you002_png,you003_png,you004_png,you005_png,you006_png,you007_png,you008_png,you009_png,zuo0010_png,zuo0011_png,zuo0012_png,zuo0013_png,zuo0014_png,zuo0015_png,zuo0016_png,zuo0017_png,zuo0018_png,zuo001_png,zuo002_png,zuo003_png,zuo004_png,zuo005_png,zuo006_png,zuo007_png,zuo008_png,zuo009_png"
+		},
+		{
+			"url": "assets/ImageResource/sounds/bgmIngame_hi.mp3",
+			"type": "sound",
+			"name": "bgmIngame_hi_mp3"
+		},
+		{
+			"url": "assets/ImageResource/sounds/bgmLose_Hi.mp3",
+			"type": "sound",
+			"name": "bgmLose_Hi_mp3"
+		},
+		{
+			"url": "assets/ImageResource/sounds/buyPlayer.mp3",
+			"type": "sound",
+			"name": "buyPlayer_mp3"
+		},
+		{
+			"url": "assets/ImageResource/sounds/carHit.mp3",
+			"type": "sound",
+			"name": "carHit_mp3"
+		},
+		{
+			"url": "assets/ImageResource/sounds/carPassing1.mp3",
+			"type": "sound",
+			"name": "carPassing1_mp3"
+		},
+		{
+			"url": "assets/ImageResource/sounds/carPassing2.mp3",
+			"type": "sound",
+			"name": "carPassing2_mp3"
+		},
+		{
+			"url": "assets/ImageResource/sounds/carPassing3.mp3",
+			"type": "sound",
+			"name": "carPassing3_mp3"
+		},
+		{
+			"url": "assets/ImageResource/sounds/horn1.mp3",
+			"type": "sound",
+			"name": "horn1_mp3"
+		},
+		{
+			"url": "assets/ImageResource/sounds/horn2.mp3",
+			"type": "sound",
+			"name": "horn2_mp3"
+		},
+		{
+			"url": "assets/ImageResource/sounds/horn3.mp3",
+			"type": "sound",
+			"name": "horn3_mp3"
+		},
+		{
+			"url": "assets/ImageResource/sounds/playerCoin.mp3",
+			"type": "sound",
+			"name": "playerCoin_mp3"
+		},
+		{
+			"url": "assets/ImageResource/sounds/playerJump.mp3",
+			"type": "sound",
+			"name": "playerJump_mp3"
+		},
+		{
+			"url": "assets/ImageResource/sounds/playerSelect.mp3",
+			"type": "sound",
+			"name": "playerSelect_mp3"
+		},
+		{
+			"url": "assets/ImageResource/sounds/playerWater.mp3",
+			"type": "sound",
+			"name": "playerWater_mp3"
+		},
+		{
+			"url": "assets/ImageResource/sounds/startGame.mp3",
+			"type": "sound",
+			"name": "startGame_mp3"
+		},
+		{
+			"url": "assets/ImageResource/sounds/tapBTN2.mp3",
+			"type": "sound",
+			"name": "tapBTN2_mp3"
+		},
+		{
+			"url": "assets/ImageResource/sounds/trainBells.mp3",
+			"type": "sound",
+			"name": "trainBells_mp3"
+		},
+		{
+			"url": "assets/ImageResource/sounds/trainPassing.mp3",
+			"type": "sound",
+			"name": "trainPassing_mp3"
+		},
+		{
+			"url": "assets/ImageResource/sounds/woodHit.mp3",
+			"type": "sound",
+			"name": "woodHit_mp3"
+		},
+		{
+			"url": "assets/ImageResource/watersplash.png",
+			"type": "image",
+			"name": "watersplash_png"
+		},
+		{
+			"name": "tip_png",
+			"type": "image",
+			"url": "assets/ImageResource/other/tip.png"
+		},
+		{
+			"name": "seet_other_json",
+			"type": "sheet",
+			"url": "assets/ImageResource/other/seet_other.json",
+			"subkeys": "ban_11_png,ban_12_png,ban_9_png,shitou_03_png,shugan_png,ks_png,select_animal_png,shu_4_png,ban_10_png,wugui_png,shu_1_png,ban_5_png,fanhui_png,ban_8_png,mute_png,ban_3_png,ban_2_png,ban_4_png,dizi_png,shu_2_png,shitou_01_png,shitou_02_png,selectBtn_png,xinhaodeng_1_png,ban_1_png,shu_5_png,ban_6_png,shu_3_png,select_png,ban_7_png,nomute_png,shitou_04_png,biaoti_1_png"
+		},
+		{
+			"name": "biaoti_2_png",
+			"type": "image",
+			"url": "assets/ImageResource/other/biaoti_2.png"
+		}
+	]
+}
